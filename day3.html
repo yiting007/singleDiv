@@ -1,0 +1,40 @@
+<head>
+    <style>
+body {
+    margin: 150px 50px;
+}
+
+.monster {
+    background: linear-gradient(#FFFFFF 50%, rgba(255,255,255,0) 0) 0 0,radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48BEE8;
+    background-size: 116px 200px;
+    background-repeat: repeat-x;
+    width: 700px;
+    height: 400px;
+}
+
+.monster:before {
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 50;
+    border-radius: 100px/50px;
+    margin: 257px;
+    transform: rotate(184deg);
+    background: radial-gradient(circle closest-side, #404040 1px, #FFFFFF 19%, #FFA500 0) 27px 5px;
+}
+
+.monster:after {
+    content: '';
+    display: inline-block;
+    border-top: 30px solid #FFA500;
+    border-right: 30px solid transparent;
+    margin: 261px -256px;
+    border-top-left-radius: 28px;
+    transform: rotate(143deg);
+}
+
+    </style>
+    <body>
+        <div class="monster"></div>
+    </body>
+</head>
