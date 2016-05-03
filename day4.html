@@ -1,0 +1,45 @@
+<head>
+    <style>
+body {
+    margin: 164px 500px;
+    background: #EECDA3; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #EECDA3 , #EF629F); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #EECDA3 , #EF629F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.mushroom {
+    width: 180px;
+    height: 93px;
+    border: solid 3px red;
+    border-radius: 90px 90px 0 0;
+    background-image: radial-gradient(white 25%, transparent 15%),radial-gradient(white 25%, transparent 15%);
+    background-position: 0 0, 30px 30px;
+    background-size: 60px 60px;
+    background-color: red;
+}
+
+.mushroom:before {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 73px;
+    margin: 96px 63px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #F6F1D1;
+    border: solid 3px #F6F1D1;
+}
+
+.mushroom:after {
+    content: ' ˘ ³˘';
+    display: inline-block;
+    margin-left: 87px;
+    margin-top: -167px;
+}
+
+    </style>
+    <body>
+        <div class="mushroom"></div>
+    </body>
+</head>
