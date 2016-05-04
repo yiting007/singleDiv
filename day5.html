@@ -1,0 +1,45 @@
+<head>
+    <style>
+body {
+    background: linear-gradient(to top, #EECDA3 , #0C000B);
+}
+
+.stars {
+    width: 600px;
+    height: 600px;
+    background-image: radial-gradient(#DECFD5, #BB9AA7 3px, transparent 5px), radial-gradient(#FFFFFF, #E2C1C1 1px, transparent 8px), radial-gradient(#FFFFFF, #C7B8B8 1px, transparent 4px), radial-gradient(#FFFFFE, #C7B8B8 1px, transparent 3px);
+    background-position: 0 0px, 47px 28px, 132px 201px, 91px 98px;
+    background-size: 560px 550px, 358px 349px, 259px 256px, 161px 149px;
+}
+
+.stars:before {
+    content: '';
+    display: inline-block;
+    width: 282px;
+    height: 253px;
+    margin-top: 558px;
+    margin-left: -37px;
+    border-top-left-radius: 81px;
+    border-top-right-radius: 81px;
+    transform: rotate(16deg);
+    background: linear-gradient(to top, #EECDA3 , #0C000B)
+}
+
+.stars:after {
+    content: '';
+    display: inline-block;
+    width: 360px;
+    height: 246px;
+    margin-top: 572px;
+    margin-left: -19px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 114px;
+    transform: rotate(-9deg);
+    background: linear-gradient(to top, #EECDA3 , #0C000B)
+}
+
+    </style>
+    <body>
+        <div class="stars"></div>
+    </body>
+</head>
