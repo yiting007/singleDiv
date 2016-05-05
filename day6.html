@@ -1,0 +1,41 @@
+<head>
+    <style>
+body {
+    margin-top: 100px;
+    margin-left: 50px;
+    background: #DCE775;
+}
+
+.watermelon {
+    width: 500px;
+    height: 400px;
+    border-bottom-left-radius: 231px;
+    border-bottom-right-radius: 231px;
+    background: radial-gradient(red 54%, yellow 15%, green 60%);
+}
+
+.watermelon:before {
+    content: '';
+    display: inline-block;
+    width: 500px;
+    height: 200px;
+    background-color: #DCE775;
+}
+
+.watermelon:after {
+    content: '';
+    display: inline-block;
+    background: radial-gradient(#0C0B0C, #BB9AA7 9px, transparent 18px), radial-gradient(#0E0D0D, #060606 5px, transparent 0px), radial-gradient(#100F0F, #544545 5px, transparent 4px), radial-gradient(#1B1B17, #2B2727 5px, transparent 5px);
+    background-size: 493px 513px, 281px 328px, 224px 229px, 125px 143px;
+    background-position: 88px 193px, 68px 245px, 168px 183px, 103px 97px;
+    margin-left: 69px;
+    width: 355px;
+    height: 119px;
+}
+
+
+    </style>
+    <body>
+        <div class="watermelon"></div>
+    </body>
+</head>
