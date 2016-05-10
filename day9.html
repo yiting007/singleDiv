@@ -1,0 +1,47 @@
+<head>
+    <style>
+body {
+    margin-top: 100px;
+    margin-left: 200px;
+    background: #FFEAB7;
+}
+
+.clock {
+    width: 200px;
+    height: 200px;
+    border: solid 10px #FFD519;
+    border-radius: 999px;
+    box-shadow: 0px 0px 0px 10px #FF6F1C;
+    background-color: lightgray;
+    background-image: radial-gradient(circle, #404040 1px, #404040 1px, #FFFFE8 7px);
+}
+
+.clock:before {
+    content: '';
+    display: block;
+    width: 3px;
+    height: 70px;
+    background-color: #404040;
+    margin-left: 116px;
+    margin-top: 35px;
+    transform: rotate(30deg);
+    box-shadow: 0px 73px 3px 0px #CD2015;
+}
+
+.clock:after {
+    content: '';
+    display: block;
+    width: 3px;
+    height: 50px;
+    background-color: #404040;
+    margin-left: 76px;
+    margin-top: -37px;
+    transform: rotate(109deg);
+}
+
+
+    </style>
+    <body>
+        <div class="clock"></div>
+    </body>
+</head>
