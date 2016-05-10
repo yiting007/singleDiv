@@ -1,0 +1,54 @@
+<head>
+    <style>
+body {
+    margin-top: 100px;
+    margin-left: 200px;
+    background: #B2EBC1;
+}
+
+.chessboard {
+    width: 360px;
+    height: 360px;
+    background-image: linear-gradient(45deg, #321F13 25%, transparent 25%, transparent 75%, #321F13 75%, #321F13), linear-gradient(45deg, #321F13 25%, transparent 25%, transparent 75%, #321F13 75%, #321F13);
+    background-size: 90px 90px;
+    background-position: 0 0, 45px 45px;
+    background-color: #ECCFAC;
+    border: 16px outset #202020;
+    border: 16px outset #B5A286;
+}
+
+.chessboard:before {
+    content: ':(';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+    margin-top: 91px;
+    margin-left: 90px;
+    background-color: #EA8383;
+    border: 2px outset #BF6486;
+    text-align: center;
+    transform: rotate(90deg);
+}
+
+.chessboard:after {
+    content: '(:';
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+    background-color: #66ACCC;
+    border: 2px outset #5DA5CE;
+    text-align: center;
+    transform: rotate(90deg);
+    margin-left: 226px;
+    margin-top: 91px;
+    transform: rotate(270deg);
+}
+
+
+    </style>
+    <body>
+        <div class="chessboard"></div>
+    </body>
+</head>
