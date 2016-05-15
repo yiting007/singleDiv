@@ -1,0 +1,49 @@
+<head>
+    <style>
+body {
+    margin-top: 200px;
+    margin-left: 250px;
+    /*background: #A98E71;*/
+    background: white;
+}
+
+.skateboard {
+    width: 400px;
+    height: 100px;
+    border: solid 2px #B9A38B;
+    border-radius: 100px/50px;
+    background-image: linear-gradient(180deg,#DC9F6D 50%,transparent 50%),linear-gradient(180deg,#EBBE91 50%,transparent 50%),linear-gradient(180deg,transparent 50%,#F3DCC5 50%),linear-gradient(180deg,transparent 50%,#BB9976 60%);
+    background-size: 4px,29px,34px,60px;
+    box-shadow: 4px 13px 5px #888888;
+}
+
+.skateboard:before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 90px;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-top: 5px;
+    background-image: radial-gradient(29px,#805839,#866143 23%,#211F1F);
+    -webkit-box-reflect: right 250px;
+}
+
+.skateboard:after {
+    content: '';
+    display: block;
+    width: 37px;
+    height: 16px;
+    border-radius: 12px;
+    margin-left: 47px;
+    margin-top: -21px;
+    background-color: rgb(49, 45, 45);
+    box-shadow: rgb(49, 45, 45) 259px 0px 0px, rgb(49, 45, 45) 259px -64px 0px, rgb(49, 45, 45) 0px -64px 0px;
+}
+
+
+    </style>
+    <body>
+        <div class="skateboard"></div>
+    </body>
+</head>
