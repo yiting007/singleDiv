@@ -1,0 +1,51 @@
+<head>
+    <style>
+body {
+    margin-top: 200px;
+    margin-left: 250px;
+    background: #FFC107;
+}
+
+.bee {
+    width: 170px;
+    height: 200px;
+    border-radius: 100px/70px;
+    background-image: linear-gradient(black 50px, #FFEB3B 50px);
+    background-size: 67px;
+}
+
+.bee:before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: solid 1px;
+    background-color: white;
+    border-radius: 9999px;
+    margin-left: 61px;
+    margin-top: 15px;
+    background-image: radial-gradient(circle, black 6%, black 40%, white 15%);
+    background-position: 2px 1px;
+    -webkit-box-reflect: right;
+}
+
+.bee:after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 99px;
+    margin-left: -60px;
+    margin-top: 14px;
+    border-radius: 60px 0px 0px 60px;
+    background-color: #ADE7DC;
+    -webkit-box-reflect: right 169px;
+}
+
+.bee:empty{
+}
+
+    </style>
+    <body>
+        <div class="bee"></div>
+    </body>
+</head>
