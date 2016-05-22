@@ -1,0 +1,44 @@
+<head>
+    <style>
+body {
+    margin-top: 200px;
+    margin-left: 350px;
+    background: #B4D6C8;
+}
+
+.plant {
+    width: 5px;
+    height: 314px;
+    background-color: black;
+}
+
+.plant:before {
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    transform: perspective(1em) rotateX(-4deg);
+    margin-top: 327px;
+    margin-left: -46px;
+    background-color: #5A554F;
+    box-shadow: 78px -190px 140px #FFEB3B;
+}
+
+.plant:after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-color: #4CAF50;
+    border-radius: 0px 91px 23px 87px;
+    box-shadow: 0px -103px 0 #8BC34A, 0px 103px 0 #009688;
+    -webkit-box-reflect: right 5px;
+    margin-top: -339px;
+    margin-left: -80px;
+}
+
+    </style>
+    <body>
+        <div class="plant"></div>
+    </body>
+</head>
