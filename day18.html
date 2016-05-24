@@ -1,0 +1,51 @@
+<head>
+    <style>
+body {
+    margin-top: 200px;
+    margin-left: 170px;
+    background: rgba(3, 169, 244, 0.09);
+}
+
+.sunglasses {
+    width: 350px;
+    height: 30px;
+    border-radius: 60px 60px 0px 0px;
+    border: solid 2px;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.sunglasses:before {
+    content: '';
+    display: inline-block;
+    width: 145px;
+    height: 120px;
+    border: solid 1px;
+    margin-left: 189px;
+    margin-top: -33px;
+    border-radius: 37px 48px 53px 93px;
+    background-image: radial-gradient(rgba(187, 25, 128, 0.91), rgba(224, 88, 89, 0.97) 53%, rgba(214, 133, 53, 0.95));
+    background-position: -52px -34px;
+    background-size: 175px;
+}
+
+.sunglasses:after {
+    content: '';
+    display: block;
+    width: 145px;
+    height: 120px;
+    border: solid 1px;
+    margin-left: 14px;
+    margin-top: -123px;
+    border-radius: 48px 37px 93px 53px;
+
+    background-image: radial-gradient(rgba(214, 133, 53, 0.95), rgba(224, 88, 89, 0.94) 40%, rgba(187, 25, 128, 0.91));
+    background-position: -84px 20px;
+    background-size: 210px;
+}
+
+    </style>
+    <body>
+        <div class="sunglasses"></div>
+    </body>
+</head>
