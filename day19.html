@@ -1,0 +1,48 @@
+<head>
+    <style>
+body {
+    margin-top: 200px;
+    margin-left: 170px;
+    background: #616980;
+}
+
+.wheels {
+    width: 300px;
+    height: 300px;
+    border: solid #595ABD;
+    border-radius: 9999px;
+    background-image: radial-gradient(circle, #4E36E7 13px, transparent 16px, transparent 55px, #4E36E7 139px, transparent 157px);
+    box-shadow: 0px 0px 20px;
+    background-color: white;
+}
+
+.wheels:before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 11px 12px 1px 1px;
+    margin-top: 63px;
+    box-shadow: -17px 72px 0px #292E28,5px 153px 0px #292E28, 54px -59px 0px black, 135px -80px 0px black, 285px 72px 0px black, 135px 224px 0px black, 57px 200px 0px black, 213px 200px 0px black, 265px 148px 0px black, 270px -1px 0px black, 211px -61px 0px black;
+}
+
+.wheels:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 277px solid rgba(22, 23, 84, 0.73);
+    margin-left: 100px;
+    margin-top: 48px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+    </style>
+    <body>
+        <div class="wheels"></div>
+    </body>
+</head>
