@@ -18,3 +18,4 @@
 [<img src="https://github.com/yiting007/singleDiv/blob/master/images/sushi.png" width="200" height="200"/>](https://github.com/yiting007/singleDiv/blob/master/day11.html)
 [<img src="https://github.com/yiting007/singleDiv/blob/master/images/water%20and%20fish.png" width="200" height="200"/>](https://github.com/yiting007/singleDiv/blob/master/day03.html)
 [<img src="https://github.com/yiting007/singleDiv/blob/master/images/watermelon.png" width="200" height="200"/>](https://github.com/yiting007/singleDiv/blob/master/day06.html)
+[<img src="https://github.com/yiting007/singleDiv/blob/master/images/Ferris_wheel.png" width="200" height="200"/>](https://github.com/yiting007/singleDiv/blob/master/day19.html)
