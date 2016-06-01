@@ -1,0 +1,53 @@
+<head>
+    <style>
+body {
+    margin-top: 200px;
+    margin-left: 300px;
+    background: #FFFFFF;
+}
+
+.keyboard {
+    width: 40px;
+    height: 180px;
+    border: solid 1px #A5A5A5;
+    background-image: linear-gradient(92deg, white 79%, #ADA8A8);
+    background-size: 40px;
+    background-position: 2.6px 0px;
+    border-bottom-color: #A4A4A4;
+    border-bottom-width: 2px;
+    -webkit-box-reflect: right 83px;
+}
+
+.keyboard:before {
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 184px;
+    border: solid 1px #A5A5A5;
+    background-image: linear-gradient(white 98%, #1B1919);
+    margin-left: 41px;
+    margin-top: -1px;
+    -webkit-box-reflect: left 41px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.keyboard:after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 96px;
+    border: solid;
+    margin-top: -185px;
+    margin-left: 29px;
+    -webkit-box-reflect: left 17px;
+    background-color: black;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 6px 0px 0px #575757;
+}
+
+    </style>
+    <body>
+        <div class="keyboard"></div>
+    </body>
+</head>
