@@ -21,3 +21,4 @@
 [<img src="https://github.com/yiting007/singleDiv/blob/master/images/Ferris_wheel.png" width="200" height="200"/>](https://github.com/yiting007/singleDiv/blob/master/files/day19.html)
 [<img src="https://github.com/yiting007/singleDiv/blob/master/images/ice.png" width="200" height="200"/>](https://github.com/yiting007/singleDiv/blob/master/files/day07.html)
 [<img src="https://github.com/yiting007/singleDiv/blob/master/images/light.png" width="200" height="200"/>](https://github.com/yiting007/singleDiv/blob/master/files/day21.html)
+[<img src="https://github.com/yiting007/singleDiv/blob/master/images/gift.png" width="200" height="200"/>](https://github.com/yiting007/singleDiv/blob/master/files/day22.html)
