@@ -1,0 +1,47 @@
+<head>
+    <style>
+body {
+    margin-top: 280px;
+    margin-left: 250px;
+    background: rgba(205, 220, 57, 0.46);
+}
+
+.bear {
+    width: 200px;
+    height: 180px;
+    border-radius: 90px 90px 80px 80px;
+    background-image: radial-gradient(rgba(128, 128, 128, 0.68) 37px, rgba(0, 0, 0, 0.02) 50px), radial-gradient(circle at 23px 16px, black 15px, white 15px, white 23px, rgba(0, 0, 0, 0.02) 23px), radial-gradient(circle at 23px 16px, black 15px, white 15px, white 23px, rgba(0, 0, 0, 0.02) 23px), radial-gradient(grey 10px, black 10px);
+    background-position: 1px 46px, -81px -111px, -167px -111px, 0px 30px;
+}
+
+.bear:before {
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: -21px;
+    margin-top: -57px;
+    -webkit-box-reflect: right 40px;
+    background-image: radial-gradient(ellipse at 56px 56px, grey 15px, black 20px);
+}
+
+.bear:after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: solid 10px rgb(234, 245, 244);
+    margin-top: 95px;
+    margin-left: 76px;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-radius: 30px 21px;
+}
+
+    </style>
+    <body>
+        <div class="bear"></div>
+    </body>
+</head>
