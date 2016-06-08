@@ -1,0 +1,47 @@
+<head>
+    <style>
+body {
+    margin-top: 350px;
+    margin-left: 250px;
+    background: #F5DADA;
+}
+
+.cherry {
+    width: 200px;
+    height: 181px;
+    background-color: #A72239;
+    border-radius: 60px 58px 100px 100px;
+    background-image: radial-gradient(ellipse, #EFEFEF 8px, transparent 13px), radial-gradient(ellipse, #C14450 4px, #A5243C 46px, transparent);
+    background-position: -47px -140px, -23px -12px;
+    background-size: 300px, 169px;
+    -webkit-box-reflect: right 10px;
+}
+
+.cherry:before {
+    content: '';
+    display: inline-block;
+    width: 382px;
+    height: 100px;
+    border: solid 5px;
+    border-color: #4CAF50 transparent transparent transparent;
+    border-radius: 50%/100px 100px 0 0;
+    transform: rotate(-64deg);
+    margin-top: -181px;
+    margin-left: -13px;
+}
+
+.cherry:after {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(31, 26, 26, 0.66) 6px, rgba(255, 255, 255, 0) 5px), radial-gradient(circle, rgba(31, 26, 26, 0.66) 6px, rgba(255, 255, 255, 0) 5px), radial-gradient(ellipse farthest-corner at 10px 0px, #ea2727 10px, rgba(232, 224, 224, 0.06) 10px);
+    background-size: 174px, 262px, 200px;
+    background-position: 68px -20px, -33px -64px, 116px 90px;
+}
+
+    </style>
+    <body>
+        <div class="cherry"></div>
+    </body>
+</head>
