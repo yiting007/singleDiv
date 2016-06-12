@@ -1,0 +1,49 @@
+<head>
+    <style>
+body {
+    margin-top: 350px;
+    margin-left: 250px;
+    background: rgba(18, 106, 224, 0.17);
+}
+
+@-webkit-keyframes "loading" {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 160% 0px;
+    }
+}
+
+.loading {
+
+    width: 400px;
+    height: 15px;
+    border: solid 3px #0cb933;
+    border-radius: 20px;
+    background: linear-gradient(140deg, transparent 20%, rgba(16, 234, 16, 0.95) 20%, rgba(16, 234, 16, 0.95) 55%, transparent 9%);
+    background-size: 60px 17px;
+    background-color: rgb(25, 169, 31);
+    animation: loading 3s cubic-bezier(1, 1.01, 1, 1) infinite;
+}
+
+.loading:before {
+    content: 'LOADING...';
+    display: inline-block;
+    margin-top: -50px;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 500;
+    margin-left: 121px;
+}
+
+.loading:after {
+    content: '';
+    display: block;
+}
+
+    </style>
+    <body>
+        <div class="loading"></div>
+    </body>
+</head>
