@@ -1,0 +1,58 @@
+<head>
+    <style>
+body {
+    margin-top: 250px;
+    margin-left: 300px;
+    background: #FEFAE7;
+}
+
+@keyframes tea-air {
+    0% {
+        opacity: 0;
+        margin-top: 10px;
+        bottom: 70px;
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 0;
+        margin-top: 20px;
+        bottom: 100px;
+    }
+}
+
+.tea {
+    width: 100px;
+    height: 125px;
+    border: solid 3px #4A6242;
+    border-radius: 10px 10px 30px 30px;
+    background-image: repeating-linear-gradient(#4A6242 10%, #5E7855 20%, #425840 30%, #708A6E 40%);
+    background-size: 73px;
+}
+
+.tea:before {
+    content: '';
+    display: inline-block;
+    width: 3px;
+    height: 50px;
+    background-color: #776060;
+    animation-duration: 3s;
+    animation-name: tea-air;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    box-shadow: 20px -30px 0px #776060, 40px -20px 0px #776060;
+    position: relative;
+    margin-left: 28px;
+}
+
+.tea:after {
+    content: '';
+    display: block;
+}
+
+    </style>
+    <body>
+        <div class="tea"></div>
+    </body>
+</head>
