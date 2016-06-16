@@ -1,0 +1,60 @@
+<head>
+    <style>
+body {
+    margin-top: 150px;
+    margin-left: 220px;
+    background: rgba(255, 87, 34, 0.54);
+}
+
+@keyframes blink {
+    0% {background-color: red;}
+    10% {background-color: yellow;}
+    20% {background-color: green;}
+    30% {background-color: blue;}
+    40% {background-color: black;}
+    50% {background-color: white;}
+    60% {background-color: pink;}
+    70% {background-color: purple;}
+    80% {background-color: grey;}
+    90% {background-color: orange;}
+}
+
+.mac {
+    width: 300px;
+    height: 200px;
+    border: solid 4px #9E9E9E;
+    border-radius: 11px;
+    box-shadow: inset 0px 0px 0px 13px rgba(18, 17, 19, 0.82);
+    animation: blink 5s linear infinite;
+}
+
+.mac:before {
+    content: '';
+    display: inline-block;
+    border-bottom: 70px solid rgba(0, 0, 0, 0.51);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    height: 0;
+    width: 60px;
+    position: relative;
+    top: 204px;
+    left: 102px;
+}
+
+.mac:after {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 20px;
+    background-color: grey;
+    position: relative;
+    top: 200px;
+    left: 78px;
+    border-radius: 4px;
+}
+
+    </style>
+    <body>
+        <div class="mac"></div>
+    </body>
+</head>
