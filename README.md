@@ -30,3 +30,4 @@
 [<img src="https://github.com/yiting007/singleDiv/blob/master/images/tea.gif" width="200" height="200"/>](https://github.com/yiting007/singleDiv/blob/master/files/day28.html)
 [<img src="https://github.com/yiting007/singleDiv/blob/master/images/gear.gif" width="200" height="200"/>](https://github.com/yiting007/singleDiv/blob/master/files/day29.html)
 [<img src="https://github.com/yiting007/singleDiv/blob/master/images/mac.gif" width="200" height="200"/>](https://github.com/yiting007/singleDiv/blob/master/files/day30.html)
+[<img src="https://github.com/yiting007/singleDiv/blob/master/images/cargo.gif" width="200" height="200"/>](https://github.com/yiting007/singleDiv/blob/master/files/day31.html)

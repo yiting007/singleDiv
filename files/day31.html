@@ -1,0 +1,80 @@
+<head>
+    <style>
+body {
+    margin-top: 300px;
+    margin-left: 150px;
+    background: rgba(205, 220, 57, 0.39);
+}
+
+@keyframes belt {
+    0% {background-position: 0px;}
+    100% {background-position: 140px;}
+}
+
+@keyframes move {
+    0% {left: 0px;}
+    100% {left: 350px;}
+}
+
+@keyframes rotate {
+    0% {transform: rotate(0deg);}
+    20% {transform: rotate(40deg);}
+    100% {transform: rotate(90deg); top: 200px;}
+}
+
+@keyframes face {
+    0% {left: -77px;
+        background: radial-gradient(circle, rgba(31, 26, 26, 0.66) 6px, rgba(255, 255, 255, 0) 5px), radial-gradient(circle, rgba(31, 26, 26, 0.66) 6px, rgba(255, 255, 255, 0) 5px), radial-gradient(ellipse farthest-corner at 10px 0px, #CDDC39 10px, rgba(232, 224, 224, 0.06) 10px);
+        background-size: 174px, 263px, 199px;
+        background-position: 68px -20px, -33px -64px, 116px 90px;
+    }
+    100% {left: 273px;
+        background: radial-gradient(circle, rgba(31, 26, 26, 0.66) 6px, rgba(255, 255, 255, 0) 5px), radial-gradient(circle, rgba(31, 26, 26, 0.66) 6px, rgba(255, 255, 255, 0) 5px), radial-gradient(ellipse farthest-corner at 10px 10px, #CDDC39 10px, rgba(232, 224, 224, 0.06) 10px);
+         background-size: 174px, 263px, 199px;
+         background-position: 68px -20px, -33px -64px, 116px 90px;
+    }
+}
+
+.cargo {
+    width: 300px;
+    height: 30px;
+    border: solid;
+    border-radius: 100px;
+    background-image: radial-gradient(circle, white 10px, black 10px);
+    background-size: 43px;
+    animation: belt 6s linear infinite;
+}
+
+.cargo:before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -102px;
+    animation: move 5s ease-in, rotate 1s cubic-bezier(0.4, 0, 1, 1);
+    animation-delay: 0s, 4s;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.cargo:after {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(31, 26, 26, 0.66) 6px, rgba(255, 255, 255, 0) 5px), radial-gradient(circle, rgba(31, 26, 26, 0.66) 6px, rgba(255, 255, 255, 0) 5px), radial-gradient(ellipse farthest-corner at 10px 0px, #CDDC39 10px, rgba(232, 224, 224, 0.06) 10px);
+    background-size: 174px, 263px, 199px;
+    background-position: 68px -20px, -33px -64px, 116px 90px;
+    position: relative;
+    top: -224px;
+    left: -77px;
+    animation: face 5s ease-in, rotate 1s cubic-bezier(0.4, 0, 1, 1);
+    animation-delay: 0s, 4s;
+}
+
+    </style>
+    <body>
+        <div class="cargo"></div>
+    </body>
+</head>
